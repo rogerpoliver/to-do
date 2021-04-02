@@ -18,7 +18,7 @@ export function TaskList() {
     if (!newTaskTitle) return;
 
     const newTask = {
-      id: Math.random(), // UID, UUID ou GUID
+      id: Math.random(), // TODO: UID, UUID ou GUID
       title: newTaskTitle,
       isComplete: false,
     };

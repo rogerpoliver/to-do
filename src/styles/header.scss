@@ -1,7 +1,24 @@
 header.header {
-  background: var(--blue);
+  background-image: linear-gradient(
+    30deg,
+    #f44d71 12.5%,
+    #fc8b3e 12.5%,
+    #fc8b3e 25%,
+    #f7a937 25%,
+    #f7a937 37.5%,
+    #f9d53d 37.5%,
+    #f9d53d 50%,
+    #f44d71 50%,
+    #f44d71 62.5%,
+    #fc8b3e 62.5%,
+    #fc8b3e 75%,
+    #f7a937 75%,
+    #f7a937 87.5%,
+    #f9d53d 87.5%,
+    #f9d53d 100%
+  );
   padding-top: 2rem;
-  
+
   > div {
     max-width: 1120px;
     margin: 0 auto;
